@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MusicInfoFragment">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/music_image_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="28dp">
+    <TextView
+        android:id="@+id/tv_music_name"
+        app:layout_constraintBottom_toTopOf="@id/tv_music_singer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/tv_music_name"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:lineHeight="41sp"
+        android:fontFamily="@font/abeezee_italic"
+        />
+    <TextView
+        android:id="@+id/tv_music_singer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/tv_music_name"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:lineHeight="22sp"
+        android:fontFamily="@font/abeezee_italic"
+        android:layout_marginBottom="34dp"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

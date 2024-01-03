@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">android3-hw7</string>
+    <string name="tv_music_name">Music name</string>
+    <string name="tv_music_singer">Music singer</string>
+    <string name="toast_error">Some error with request</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
